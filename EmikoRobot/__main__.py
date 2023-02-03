@@ -81,12 +81,12 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-GROUP_START_IMG = "https://telegra.ph/file/96e10981a7989000b347e.jpg"
+GROUP_START_IMG = "https://telegra.ph/file/0cc5459d0fa28d37f8485.jpg"
 
 PM_START_TEXT = """
 *ᴋᴏɴɪᴄʜɪᴡᴀ! {}!*
-۞ ɪᴍ ᴠɪᴄᴛᴏʀ 
-ᴀɴ ᴀɴɪᴍᴇ ʙᴀꜱᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ . [👋](https://telegra.ph/file/bde59c4e786d5f06d7b0e.mp4)
+۞ ɪᴍ ᴋᴀɴʀᴏᴊɪ ᴍɪᴛꜱᴜʀɪ 
+ᴀɴ ᴀɴɪᴍᴇ ʙᴀꜱᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ . [👋](https://telegra.ph/file/f2d26142683736ab56f00.jpg)
 ───────────────────────
 × *Aʟɪᴠᴇ Sɪɴᴄᴇ:* {}
 × {} *Wᴇᴇʙꜱ, Aᴄʀᴏꜱꜱ* {} *Cʜᴀᴛꜱ*
@@ -98,18 +98,18 @@ buttons = [
     [
         InlineKeyboardButton(
             text="【Aᴅᴅ Victor Tᴏ Yᴏᴜʀ GC】",
-            url="https://t.me/Victor_Nikiforov_Robot?startgroup=new",
+            url="https://t.me/kanrojimitsirirobot?startgroup=new",
         ),
     ],
     [
         InlineKeyboardButton(text="【HELP】", callback_data="help_back"),
-        InlineKeyboardButton(text="【Support】", url="https://t.me/Victor_Nikiforov_Support"),
+        InlineKeyboardButton(text="【Support】", url="https://t.me/Hashira_Techdivision"),
     ],
 ]
 
 
 HELP_STRINGS = """
-[Click on the buttons bellow to get description of victor's commands!](https://telegra.ph/file/bde59c4e786d5f06d7b0e.mp4)"""
+[Click on the buttons bellow to get description of *Mitsuri's* commands!](https://telegra.ph/file/bb45ad161aa73834faf39.jpg)"""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
@@ -239,7 +239,7 @@ def start(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="【Support】", url="https://t.me/Victor_Nikiforov_Support"
+                            text="【Support】", url="https://t.me/Hashira_techdivision"
                         ),
                     ],
                 ]
@@ -371,7 +371,7 @@ def hori_about_callback(update, context):
     query = update.callback_query
     if query.data == "hori_":
         query.message.edit_text(
-            text="๏ I'm *victor*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *Mitsuri*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -389,11 +389,11 @@ def hori_about_callback(update, context):
                     InlineKeyboardButton(text="Owner", url="https://t.me/omegaflower"),
                  ],
                  [
-                    InlineKeyboardButton(text="Support", url="https://t.me/Victor_Nikiforov_Support"),
-                    InlineKeyboardButton(text="Credits", url="https://t.me/ricks_2005"),
+                    InlineKeyboardButton(text="Support", url="https://t.me/Hashira_techdivision"),
+                    InlineKeyboardButton(text="Credits", url="https://t.me/rickz_2005"),
                  ],
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/orofer-xt/LalisaManobalRobot"),
+                    InlineKeyboardButton(text="Source Code", url="https://github.com/HashiraAssociation/MitsuriAI"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_back"),
@@ -447,15 +447,15 @@ def hori_about_callback(update, context):
         )
     elif query.data == "hori_support":
         query.message.edit_text(
-            text="*๏ Hori san support chats*"
+            text="*๏ Mitsuri support chats*"
             "\nJoin My Support Group/Channel for see or report a problem on Hori.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Support", url="t.me/Victor_Nikiforov_Support"),
+                        InlineKeyboardButton(text="Support", url="t.me/Hashira_Techdivision"),
                         InlineKeyboardButton(
-                            text="Updates", url="https://t.me/Victor_Nikiforov_Support"
+                            text="Updates", url="https://t.me/Hashira_techdivision"
                         ),
                     ],
                     [
@@ -467,17 +467,17 @@ def hori_about_callback(update, context):
 
     elif query.data == "hori_credit":
         query.message.edit_text(
-            text=f"๏ Credis for victor\n"
-            "\nHere Developers Making And Give Inspiration For Made The HoriRobot",
+            text=f"๏ Credis for Mitsuri\n"
+            "\nHere Developers Making And Give Inspiration For Mitsuri AI",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="FLAME", url="https://github.com/orofer-xt"
+                            text="FLAME", url="https://github.com/HashiraAssociation"
                         ),
                         InlineKeyboardButton(
-                            text="Flame (telegram)", url="https://t.me/ricks_2005"
+                            text="Flame (telegram)", url="https://t.me/rickz_2005"
                         ),
                     ],
                     [
@@ -540,7 +540,7 @@ def get_help(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="【HELP】",
-                                url="t.me/Victor_Nikiforov_Robot?start=ghelp_{}".format(
+                                url="t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
                             )
@@ -724,7 +724,7 @@ def get_settings(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="【Settings】",
-                                url="t.me/Victor_Nikiforov_Robot?start=stngs_{}".format(
+                                url="t.me/KanrojiMitsuriRobot?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
                             )
@@ -796,8 +796,8 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.sendMessage(
-                f"@Victor_Nikiforov_Support",
-                "[👋](https://telegra.ph/file/1ede1936edeb8ba2efab9.jpg) Hi weebs, [Victor](t.me/Victor_Nikiforov_Robot) is back alive.",
+                f"@Hashira_techdivision",
+                " Hi weebs, [Mitsuri](t.me/KanrojiMitsutiRobot) Is Ready to Fight The Demons.",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
