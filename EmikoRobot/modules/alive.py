@@ -13,9 +13,9 @@ from telethon import __version__ as y
 
 from pyrogram import __version__ as z
 
-from Messi.events import register
+from EnikoRobot.events import register
 
-from Messi import telethn as tbot
+from EmikoRobot import telethn as tbot
 
 PHOTO = "https://telegra.ph/file/f2d26142683736ab56f00.jpg"
 
