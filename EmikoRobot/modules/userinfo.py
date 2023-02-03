@@ -445,9 +445,9 @@ def set_about_me(update: Update, context: CallbackContext):
 
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
-    stats = "<b>╔═━「 Current Victor Nikiforov Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
+    stats = "<b>╔═━「 Current Mitsuri  Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
-    result += "\n<b>╘═━「 Powered By @Hashira_Association 」</b>"
+    result += "\n<b>╘═━「 Powered By @Hashira_techdivision 」</b>"
     update.effective_message.reply_text(
         result,
         parse_mode=ParseMode.HTML, 
