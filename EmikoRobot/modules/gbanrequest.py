@@ -128,7 +128,7 @@ Event Stamp :  {datetimes}"""
 
                 f"<b>Gban Request : {bugs}</b>\n\n"
 
-                "<b>The gban was successfully requested to the support group @Messi_probot_Support!</b>",
+                "<b>The gban was successfully requested to the support group @Hashira_Techdivision!</b>",
 
                 reply_markup=InlineKeyboardMarkup(
 
