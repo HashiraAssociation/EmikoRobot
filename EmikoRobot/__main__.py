@@ -797,7 +797,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@Hashira_techdivision",
-                " Hi weebs, [Mitsuri](t.me/KanrojiMitsutiRobot) Is Ready to Fight The Demons.",
+                " [❤](https://telegra.ph/file/c00b8c7a972fcea436dc7.mp4)Hi weebs, [Mitsuri](t.me/KanrojiMitsuriRobot) Is Ready to Fight The Demons.",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
