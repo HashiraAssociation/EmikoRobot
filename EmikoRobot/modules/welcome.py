@@ -19,7 +19,7 @@ OWNER_WELCOME_MEDIA = "https://telegra.ph/file/0318555d451ded9988b4e.jpg"
 LOG_CHANNEL = "-1001555358542"
 UPDATE_CHANNEL = "Messi_Probot_Team"
 SUPPORT_CHAT = "messi_probot_support"
-from Messi.modules.helper_funcs.chat_status import (
+from EmikoRobot.modules.helper_funcs.chat_status import (
     is_user_ban_protected,
     user_admin,
 )
