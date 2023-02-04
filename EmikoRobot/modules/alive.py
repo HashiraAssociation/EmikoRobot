@@ -13,7 +13,7 @@ from telethon import __version__ as y
 
 from pyrogram import __version__ as z
 
-from EnikoRobot.events import register
+from EmikoRobot.events import register
 
 from EmikoRobot import telethn as tbot
 
