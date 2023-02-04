@@ -32,15 +32,15 @@ async def repo(_, message):
         photo=MEMEK,
         caption=f"""✨ **Hey I'm Victor** 
 
-**Owner of repo : [Flame](https://t.me/ricks_2005)**
+
 **Python Version :** `{y()}`
 **Library Version :** `{o}`
 **Telethon Version :** `{s}`
 **Pyrogram Version :** `{z}`
-** My collaborators**
-** 1) [𝐅𝐥𝐚𝐦𝐞 ✗ℋ𝐚𝐬𝐡𝐢𝐫𝐚 『ARCANE』 • ᴢᴇxᴛ™](https://t.me/ricks_2005)**
 
-**Sorry but the repo is not available.**
+
+
+**Sorry but the repo is not available till the bot hits 100 chats.**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -48,7 +48,7 @@ async def repo(_, message):
                     InlineKeyboardButton(
                         "Network", url="https://t.me/Hashira_Association"), 
                     InlineKeyboardButton(
-                        "Support", url="https://t.me/Victor_Nikiforov_Support")
+                        "Support", url="https://t.me/Hashira_techdivision")
                 ]
             ]
         )
