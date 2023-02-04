@@ -81,7 +81,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-GROUP_START_IMG = "https://telegra.ph/file/0cc5459d0fa28d37f8485.jpg"
+GROUP_START_IMG = "https://telegra.ph/file/c00b8c7a972fcea436dc7.mp4"
 
 PM_START_TEXT = """
 *ᴋᴏɴɪᴄʜɪᴡᴀ! {}!*
@@ -97,7 +97,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="【Aᴅᴅ Victor Tᴏ Yᴏᴜʀ GC】",
+            text="【Aᴅᴅ Mitsuri Tᴏ Yᴏᴜʀ GC】",
             url="https://t.me/kanrojimitsirirobot?startgroup=new",
         ),
     ],
