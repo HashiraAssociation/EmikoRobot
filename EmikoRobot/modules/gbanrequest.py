@@ -26,7 +26,7 @@ from EmikoRobot import (
 
 )
 
-from Messi.utils.errors import capture_err
+from EmikoRobot.utils.errors import capture_err
 
 def content(msg: Message) -> [None, str]:
 
